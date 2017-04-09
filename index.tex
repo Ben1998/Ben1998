@@ -1,6 +1,12 @@
 \documentclass[hyperref]{ctexbook}
 \setmainfont{Noto Serif CJK TC}
 \setCJKmainfont{Noto Serif CJK TC}
+
+% reset chapter counter per part
+\makeatletter
+\@addtoreset{chapter}{part}
+\makeatother
+
 \begin{document}
 
 \chapter*{作者有一點話說}\input{tex/frontMatter}
