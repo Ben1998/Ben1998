@@ -2,10 +2,9 @@
 \setmainfont{Noto Serif CJK TC}
 \setCJKmainfont{Noto Serif CJK TC}
 
-% reset chapter counter per part
-\makeatletter
-\@addtoreset{chapter}{part}
-\makeatother
+\usepackage{hyperref}
+\usepackage{chngcntr}
+\counterwithin{chapter}{part}
 
 \begin{document}
 
