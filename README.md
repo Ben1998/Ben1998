@@ -7,7 +7,7 @@ This is a TeX version of 少年阿賓 with [text-proofing](tex/編者的話/note
 ## Compile
 
 1. Install [Tex Live](https://www.tug.org/texlive/).
-1. Install [Noto Serif CJK](https://www.google.com/get/noto/help/cjk/).
+1. Install [Source Han Serif CJK](https://github.com/adobe-fonts/source-han-super-otc).
 
 ```bash
 make

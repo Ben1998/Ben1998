@@ -181,3 +181,7 @@ TSWLatexianTemp*
 
 # IntelliJ IDEA
 .idea
+/index.xmpdata
+/pdfa.xmpi
+/creationdate.lua
+/creationdate.timestamp

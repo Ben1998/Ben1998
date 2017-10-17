@@ -1,9 +1,16 @@
-\documentclass[hyperref]{ctexbook}
-\setmainfont{Noto Serif CJK TC}
-\setCJKmainfont{Noto Serif CJK TC}
+\begin{filecontents*}{\jobname.xmpdata}
+\Title{少年阿賓}
+\Author{Ben}
+\Keywords{少年阿賓,情色}
+\Publisher{The Internet}
+\end{filecontents*}
 
-\usepackage{hyperref}
-\usepackage{chngcntr}
+\documentclass[hyperref]{ctexbook}
+\setmainfont{Source Han Serif TW}
+\setCJKmainfont{Source Han Serif TW}
+\usepackage[a-1b]{pdfx}
+\hypersetup{pdflang={zh-cmn}}
+
 \counterwithin{chapter}{part}
 
 \begin{document}
